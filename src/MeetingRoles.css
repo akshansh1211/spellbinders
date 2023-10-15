@@ -1,0 +1,61 @@
+/* Add this CSS to your component or a separate CSS file */
+
+
+
+.meeting-roles-container {
+    background-image: url('./assets/img/bg.jpg'); /* Specify the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+  }
+  
+
+.btn-container {
+    margin: 10px 0; /* Add some spacing between buttons */
+  }
+  
+  .btn {
+    font-size: 18px; /* Increase button font size */
+    padding: 15px; /* Increase button padding for a larger clickable area */
+    background-color:#213555;
+  }
+  
+  .btn:hover {
+    background-color: #1F4172; /* Change button background color on hover */
+    color: #fff; /* Change button text color on hover */
+    transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+  }
+  
+  h1 {
+    text-align: center; /* Center-align the heading */
+    font-size: 45px; /* Increase heading font size */
+    font-weight:500;
+    margin-top: 10px; /* Add space above the heading */
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 30px; /* Increase subheading font size */
+  }
+  
+  /* span{
+    font-size:20px;
+    line-height: 0cap;
+  } */
+  
+  p {
+    text-align: center;
+    font-size: 16px; /* Increase paragraph font size */
+    /* margin:10px 400px 15px 400px; */
+  }
+  
+  /* Optional: Add a background color to the entire page */
+  /* body {
+    background-color: #f7f7f7; /* Light gray background */
+  /* }  */
+  
+  /* Optional: Add some padding to the entire page */
+  .container {
+    padding: 20px;
+  }
+  

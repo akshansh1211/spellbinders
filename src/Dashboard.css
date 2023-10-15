@@ -1,0 +1,49 @@
+/* Table styling */
+
+.dashboard{
+  font: 1 rem;
+  background-image: url('./assets/img/bg.jpg');
+  padding-top: 100px;
+  
+}
+
+.overview{
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.voila{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.full-width-table {
+  /* background: linear-gradient(to bottom, purple, rgb(131, 76, 85), grey); Add a gradient background as a fallback */
+  background-image: url('./assets/img/bg.jpg');
+  background-size: cover; /* Make the background image cover the table */
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: transparent; /* Remove the background color for the entire table */
+}
+
+/* Table header styling */
+.full-width-table thead th {
+  background-color: #333; /* Header background color */
+  color: white; /* Header text color */
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ccc; /* Header border color */
+}
+
+/* Table cell styling */
+.full-width-table tbody td {
+  background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background for the cells */
+  color: white; /* Cell text color */
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ccc; /* Cell border color */
+}
+
